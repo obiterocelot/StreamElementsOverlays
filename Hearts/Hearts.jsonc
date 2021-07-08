@@ -1,0 +1,24 @@
+//JSON data
+{
+    "heartImage": {
+       "type": "image-input",
+       "label": "Your Heart"
+    },
+    "chatCommand": {
+      "type": "text",
+      "label": "Overlay command",
+      "value": "!muchlove"
+    },
+    "heartMax": {
+      "type": "number",
+      "label": "Max hearts on screen",
+      "value": 1000,
+      "step": 1
+    },
+    "coolDown": {
+      "type": "number",
+      "label": "Cool down timer in ms",
+      "value": 10000,
+      "step": 100
+    }
+}
